@@ -59,6 +59,57 @@
     // });
 // });
 
+
+/*=========================================
+ LIVE CLOCK
+==========================================*/
+
+function startClock() {
+
+    updateClock();
+
+    setInterval(updateClock, 1000);
+
+}
+
+function updateClock() {
+
+    const now = new Date();
+
+    const dateOptions = {
+
+        weekday: "long",
+
+        year: "numeric",
+
+        month: "long",
+
+        day: "numeric"
+
+    };
+
+    const currentDate = document.getElementById("currentDate");
+
+    const currentTime = document.getElementById("currentTime");
+
+    if (currentDate) {
+
+        currentDate.innerHTML =
+            now.toLocaleDateString("en-IN", dateOptions);
+
+    }
+
+    if (currentTime) {
+
+        currentTime.innerHTML =
+            now.toLocaleTimeString("en-IN");
+
+    }
+
+}
+
+
+
 lightGallery(document.getElementById('gallery'),{
 
     selector:'a',
@@ -88,6 +139,7 @@ lightGallery(document.getElementById('gallery'),{
 //calender 
 document.addEventListener("DOMContentLoaded", function () {
     updateBankStatus();
+	    startClock();
 });
 
 function updateBankStatus() {
@@ -210,7 +262,9 @@ if (hour >= 9 && hour < 18) {
     statusBadge.innerHTML = "OPEN NOW";
     statusBadge.className = "bank-open";
 } else {
-    status.innerHTML = `🔴 आज ${marathiDays[day]} - सध्या बँक बंद झाली आहे. बँकेच्या कामकाजासाठी कृपया सकाळी ९:०० ते सायंकाळी ६:०० या वेळेत बँकेशी संपर्क साधावा. धन्यवाद.!`;
+	
+	status.innerHTML = `🔴 आज ${marathiDays[day]} - सध्या बँक बंद आहे. कृपया सकाळी ९:०० ते सायं. ६:०० या वेळेत संपर्क साधा.धन्यवाद!`;
+   // status.innerHTML = `🔴 आज ${marathiDays[day]} - सध्या बँक बंद झाली आहे. बँकेच्या कामकाजासाठी कृपया सकाळी ९:०० ते सायंकाळी ६:०० या वेळेत बँकेशी संपर्क साधावा. धन्यवाद.!`;
     statusBadge.innerHTML = "CLOSED NOW";
     statusBadge.className = "bank-closed";
 }
