@@ -1369,10 +1369,10 @@ SMALL MOBILE
 	overflow: visible;
 }
 .company-logo {
-    width: 28%;
-    height: 78px;
+    width: 23%;
+    height: 80px;
     object-fit: contain;
-    transition: transform .2s ease;
+    transition: transform .3s ease;
     cursor: pointer;
     position: relative;
     z-index: 10;
@@ -1402,8 +1402,8 @@ SMALL MOBILE
 @media (max-width: 768px) {
 
     .company-logo {
-        width: 55px;
-        height: 55px;
+        width: 80px;
+        height: 50px;
     }
 
     .logo {
@@ -1422,8 +1422,8 @@ SMALL MOBILE
 @media (max-width: 480px) {
 
     .company-logo {
-        width: 45px;
-        height: 45px;
+        width: 79px;
+        height: 49px;
     }
 
     .logo h2 {
