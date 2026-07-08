@@ -1424,6 +1424,7 @@ SMALL MOBILE
     .company-logo {
         width: 79px;
         height: 49px;
+		margin-left: -70px;
     }
 
     .logo h2 {
