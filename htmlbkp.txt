@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>धनदाई एंटरप्रायझेस (Dhandai Enterprises)
+
+फिनो पेमेंट बँक सीएसपी केंद्र (Fino Payment Bank CSP Center)</title>
+
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<!-- CSS -->
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style1.css">
+
+
+</head>
+
+<body>
+<!-- JavaScript File -->
+<script src="script.js"></script>
+
+<!-- HEADER -->
+<header>
+<div class="logo">
+<h2>धनदाई एंटरप्रायझेस (Dhandai Enterprises)
+
+</h2>
+<p>फिनो पेमेंट बँक सीएसपी केंद्र</p><p>महाराष्ट्र बँक सीएसपी केंद्र</p>
+</div>
+
+<nav>
+<ul>
+<li><a href="#home">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#services">Services</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+
+</header>
+
+
+
+<section class="latest-update">
+    <div class="update-title">📢 नवीन अपडेट</div>
+    <div class="ticker">
+        <div class="ticker-content">
+            🎉 फिनो पेमेंट बँक खाते उघडण्याची सुविधा उपलब्ध • 💰 पैसे जमा व पैसे काढणे • 🏦 AEPS • 💳 ATM • 🔄 सर्व बँक मनी ट्रान्सफर • 📄 महा ई सेवा • 🖥️ CSC सेवा • 🌾 PM किसान • 📑 शॉप अॅक्ट • 🍽️ फूड लायसन्स • ☎ संपर्क: 9561091197
+        </div>
+    </div>
+</section>
+
+<!-- HERO SECTION -->
+<section id="home" class="hero">
+<div class="overlay">
+<h1>धनदाई एंटरप्रायझेस मध्ये आपले स्वागत आहे</h1>
+<p>सर्व बँकिंग आणि शासकीय सेवा एकाच छताखाली</p>
+
+
+<a href="tel:9561091197" class="btn">Call Now</a>
+<a href="https://wa.me/917499150521" class="btn2">WhatsApp</a>
+</div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+<h2>About Us</h2>
+<h2>धनदाई एंटरप्रायझेस</h2>
+<p>
+धनदाई एंटरप्रायझेस हे आपले विश्वासू सेवा केंद्र आहे जे बँकिंग, शासकीय आणि डिजिटल सेवा एकाच ठिकाणी उपलब्ध करून देते. 
+आम्ही फिनो पेमेंट बँक, AEPS सेवा, CSC सेवा, महाऑनलाईन सेवा तसेच सर्व शासकीय नोंदणी सेवा पुरवतो. 
+ग्राहकांचे समाधान आणि दीर्घकालीन नातेसंबंध हेच आमचे ध्येय आहे. 
+आम्ही प्रत्येक ग्राहकाला विश्वास, पारदर्शकता आणि उत्कृष्ट सेवा देण्यावर भर देतो.
+</p>
+
+<!-- <p> -->
+<!-- Dhandai Enterprises is your trusted service center offering banking, -->
+<!-- government, and digital services like Fino Payment Bank, AEPS, CSC, -->
+<!-- MahaOnline, and all government registrations in one place. -->
+<!-- </p> -->
+</section>
+
+<!-- SERVICES -->
+<section id="services">
+
+<h2>आमच्या सेवा</h2>
+
+<div class="service-grid">
+<div class="card">
+    <i class="fa fa-university"></i>
+    <h3>फिनो पेमेंट बँक सीएसपी केंद्र</h3>
+  </div>
+
+  <div class="card"  onclick="toggleService('MahaID')">
+    <i class="fa fa-landmark"></i>
+    <h3>महाराष्ट्र बँक सीएसपी केंद्र</h3>
+	<div id="MahaID" class="service-box">
+
+  <h2><u>महाराष्ट्र बँकिंग सर्व सेवा</u></h2>
+<ul>
+  <li>खाते उघडणे (Account Opening)</li>
+  <li>रोख जमा (Cash Deposit)</li>
+  <li>रोख पैसे काढणे (Cash Withdrawal)</li>
+  <li>AEPS सेवा (AEPS Service)</li>
+  <li>एटीएम सेवा (ATM Services)</li>
+  <li>सर्व बँक पैसे हस्तांतरण (All Bank Transfer)</li>
+  <li>महाराष्ट्र बँक सीएसपी केंद्र (Maharashtra Bank CSP Center)</li>
+  <li>कर्ज हप्ता भरणा (Loan EMI Payment)</li>
+  <li>क्रेडिट कार्ड बिल भरणा (Credit Card Bill Payment)</li>
+  <li>वीज बिल भरणा (Light Bill Payment)</li>
+  <li>प्रधानमंत्री जनधन योजना (PMJDY)</li>
+  <li>प्रधानमंत्री जीवन ज्योती योजना / स्वयं सहाय्यता गट (PMJJY / SHG)</li>
+  <li>सर्व विमा योजना (All Insurance Schemes)</li>
+</ul>
+
+</ul>
+
+
+</div>
+
+  </div>
+<div class="card"><i class="fa fa-building-columns"></i><h3>फिनो खाते उघडणे</h3></div>
+<div class="card"><i class="fa fa-money-bill"></i><h3>रोख जमा</h3></div>
+<div class="card"><i class="fa fa-wallet"></i><h3>रोख पैसे काढणे</h3></div>
+<div class="card"><i class="fa fa-fingerprint"></i><h3>AEPS सेवा</h3></div>
+<div class="card"><i class="fa fa-credit-card"></i><h3>एटीएम सेवा</h3></div>
+
+<div class="card"><i class="fa fa-money-bill-transfer"></i><h3>सर्व बँक पैसे हस्तांतरण</h3></div>
+
+
+
+
+<div class="card" onclick="toggleService('csc')">
+<i class="fa fa-desktop"></i>
+<h3>ग्राहक सेवा केंद्र (CSC Services)</h3>
+
+<!-- CSC LIST -->
+<div id="csc" class="service-box">
+
+<h3>📌 ग्राहक सेवा केंद्र सेवा</h3>
+
+<h3>📊 अतिरिक्त सेवा</h3>
+<ul>
+  <li>नवीन पॅन कार्ड (New PAN Card)</li>
+  <li>उद्योग आधार प्रमाणपत्र (Udyam Aadhaar Certificate)</li>
+  <li>नवीन पीएम किसान नोंदणी (New PM Kisan Registration)</li>
+  <li>पीएम किसान ई-केवायसी (PM Kisan eKYC)</li>
+  <li>मतदार नोंदणी (Voter Registration)</li>
+  <li>पीक विमा नोंदणी (Crop Insurance Registration)</li>
+  <li>वीज बिल भरणा (Light Bill Payment)</li>
+  <li>LIC प्रीमियम भरणा (LIC Premium Payment)</li>
+  <li>कर्ज हप्ता भरणा (Loan EMI Payment)</li>
+  <li>क्रेडिट कार्ड बिल भरणा (Credit Card Bill Payment)</li>
+  <li>मोबाईल रिचार्ज (Mobile Recharge)</li>
+  <li>ड्रायव्हिंग लायसन्स सेवा (Driving Licence Services)</li>
+  <li>आधार पत्ता अपडेट (Aadhaar Address Update)</li>
+  <li>अन्न परवाना (Food Licence)</li>
+  <li>महा आयडी ई-सरथ कार्ड नोंदणी (MahaID E-Sarath Card Registration)</li>
+  <li>कामगार नोंदणी व नूतनीकरण (Labour Registration & Renewal)</li>
+  <li>ई-श्रम कार्ड (E-Shram Card)</li>
+  <li>शेतकरी आयडी नोंदणी (Farmer ID Registration)</li>
+</ul>
+
+
+</div>
+</div>
+<div class="card"><!-- MAHAONLINE -->
+<div class="card" onclick="toggleService('mahaonline')">
+<i class="fa fa-globe"></i>
+<h3>महा ऑनलाइन सेवा(महा-ई-सेवा केंद्)</h3>
+</div>
+
+<!-- CUSTOMER SERVICE CENTER -->
+
+
+
+<!-- MAHAONLINE LIST -->
+<div id="mahaonline" class="service-box">
+
+<h3>📌 महा ई सेवा केंद्र मुख्य सेवा</h3>
+<ul>
+<li>उत्पन्न प्रमाणपत्र (Income Certificate)</li>
+<li>रहिवासी प्रमाणपत्र – गाव/तालुक्यातील स्थायिकतेचा पुरावा</li>
+<li>जात प्रमाणपत्र (Caste Certificate)– शैक्षणिक व नोकरीसाठी आवश्यक</li>
+<li>नॉन-क्रीमी लेयर प्रमाणपत्र (Non-Creamy Layer Certificate)</li>
+<li>रहिवासी प्रमाणपत्र (Residence Certificate)</li>
+<li>डोमिसाईल प्रमाणपत्र – अधिवासाचा पुरावा(Domicile Certificate)</li>
+<li>ज्येष्ठ नागरिक प्रमाणपत्र (Senior Citizen Certificate)</li>
+<li>चारित्र्य पडताळणी – नोकरी, परवाना व इतर सरकारी कामांसाठी</li>
+<li>शेतकरी प्रमाणपत्र (Farmer Certificate) </li>
+<li>शेतकरी असल्याचे प्रमाणपत्र</li>
+<li>जन्मतारीख बदल राजपत्र</li>
+<li>वंशावळी प्रतिज्ञापत्र</li>
+<li>महिला आरक्षण प्रमाणपत्र</li>
+</ul>
+
+<h3>📑 उपसेवा व इतर सुविधा</h3>
+
+<ul>
+
+  <li>अल्प भूधारक प्रमाणपत्र (Small Land Holder Certificate)</li>
+  <li>भूमिहीन प्रमाणपत्र (Landless Certificate)</li>
+  <li>भागीदारी फर्म नोंदणी (Partnership Firm Registration)</li>
+  <li>नाव बदल राजपत्र अर्ज (Gazette Application for Change of Name)</li> 
+  <li>दुकान व आस्थापना नोंदणी (Shop & Establishment Registration)</li>
+  <li>ड्रायव्हिंग लायसन्स डुप्लिकेट (Duplicate Driving License)</li>
+</ul>
+
+
+
+
+</div>
+
+</div>
+
+<div class="card"><i class="fa fa-id-card"></i><h3>ई-श्रम कार्ड</h3></div>
+<div class="card"><i class="fa fa-industry"></i><h3>उद्योग आधार</h3></div>
+<div class="card"><i class="fa fa-shop"></i><h3>दुकान अधिनियम परवाना</h3></div>
+<div class="card"><i class="fa fa-utensils"></i><h3>अन्न परवाना (FSSAI)</h3></div>
+
+<div class="card"><i class="fa fa-address-card"></i><h3>पॅन कार्ड</h3></div>
+<div class="card"><i class="fa fa-file"></i><h3>उत्पन्न प्रमाणपत्र</h3></div>
+<div class="card"><i class="fa fa-certificate"></i><h3>जात प्रमाणपत्र</h3></div>
+<div class="card"><i class="fa fa-earth-asia"></i><h3>डोमिसाईल प्रमाणपत्र</h3></div>
+
+<div class="card"><i class="fa fa-baby"></i><h3>जन्म प्रमाणपत्र</h3></div>
+<div class="card"><i class="fa fa-heart"></i><h3>आयुष्मान भारत कार्ड</h3></div>
+
+</div>
+
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+
+<h2>Contact Us</h2>
+
+<form>
+<input type="text" placeholder="Your Name" required>
+<input type="email" placeholder="Your Email">
+<input type="text" placeholder="Mobile Number" required>
+<textarea placeholder="Your Message"></textarea>
+<button type="submit">Send Message</button>
+</form>
+
+<div class="details">
+
+<!-- <p><b>Owner:</b> Kiran Khairnar</p> -->
+<!-- <p><b>Mobile:</b> 9561091197</p> -->
+<!-- <p><b>WhatsApp:</b> 7499150521</p> -->
+<!-- <p><b>Email:</b> kiyanshkhairnar24@gmail.com</p> -->
+
+<!-- <p><b>Address:</b><br> -->
+<!-- AT Post Mahalpatane,<br> -->
+<!-- Tal. Deola, <div class="details">-->
+
+<h2>📌फिनो पेमेंट बँक,महाराष्ट्र बँक सीएसपी केंद्र व(महा-ई-सेवा केंद्र)सेवासाठी संपर्क </h2>
+
+<p><b>👤 संपर्क व्यक्ती:</b>किरण खैरनार (Branch Head Officer)</p>
+<p><b>📱 मोबाइल:</b> <a href="tel:9561091197">📞 9561091197</a></p>
+
+<hr>
+
+<p><b>👤 संपर्क व्यक्ती:</b> कादिर शेख (Account Manager)</p>
+<p><b>📱 मोबाइल:</b> <a href="tel:9860551602">📞 9860551602</a></p>
+<hr>
+<p><b>👤 संपर्क व्यक्ती:</b>पवन कुमावत (Branch Manager)</p>
+<p><b>📱 मोबाइल:</b> <a href="tel:7499150521">📞 7499150521</a></p>
+
+<hr>
+
+<p><b>👤 संपर्क व्यक्ती:</b>धनश्री खैरनार (Mahaonline & CSC operator)</p>
+<p><b>📱 मोबाइल:</b> <a href="tel:7028507297">📞 7028507297</a></p>
+
+<hr>
+
+<p><b>📧 ई-मेल:</b>
+<a href="mailto:kiyanshkhairnar24@gmail.com">✉️ finopaymentbankmahalpatane@gmail.com</a>
+</p>
+
+<hr>
+
+<p><b>📍 पत्ता:</b><br>
+AT Post Mahalpatane,<br>
+Tal. Deola,<br>
+Dist. Nashik - 423213
+</p>
+
+</div>
+<!-- </p> -->
+
+
+
+</div>
+
+</section>
+
+<!-- FOOTER -->
+<footer>
+<h3>Dhandai Enterprises</h3>
+<p>© 2026 All Rights Reserved</p>
+</footer>
+
+<!-- WHATSAPP FLOAT -->
+<a class="whatsapp" href="https://wa.me/917499150521" target="_blank">
+<i class="fab fa-whatsapp"></i>
+</a>
+
+<!-- JS -->
+<script src="script.js"></script>
+
+</body>
+</html>
